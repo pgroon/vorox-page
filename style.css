@@ -1,0 +1,113 @@
+:root {
+  --font-color: #EAE6E2;
+  --bg-color: #2A2625;
+  --highlight-color: #FF6611;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  padding: 2rem;
+  border-bottom: 2px solid var(--highlight-color);
+  text-align: center;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 0 3rem 0
+}
+
+a {color: var(--highlight-color)}
+a:hover {color: var(--font-color)}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: var(--highlight-color);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--font-color);
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.cta {
+  background: var(--highlight-color);
+  color: var(--bg-color);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 2rem;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bcb7b3;
+}
+
+/* oswald-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/oswald-v56-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* oswald-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/oswald-v56-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/inter-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/inter-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
