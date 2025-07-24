@@ -1,0 +1,18 @@
+# Node dependencies
+node_modules/
+
+# Eleventy output folder
+_site/
+
+# OS-specific and editor temp files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# npm logs
+npm-debug.log*
+
+# Optional: local env files
+.env

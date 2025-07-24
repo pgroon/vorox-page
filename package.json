@@ -1,0 +1,27 @@
+{
+  "name": "04_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgroon/vorox-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgroon/vorox-page/issues"
+  },
+  "homepage": "https://github.com/pgroon/vorox-page#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-container": "^4.0.0"
+  }
+}
