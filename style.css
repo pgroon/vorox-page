@@ -1,7 +1,15 @@
+
 :root {
+/* Warm Concrete (Dark) 
   --font-color: #EAE6E2;
   --bg-color: #2A2625;
-  --highlight-color: #FF6611;
+  --highlight-color: #FF6611; 
+ */ 
+
+/* Sonic Plum (Dark) */
+  --font-color: #E8DFF0;
+  --bg-color: #201924;
+  --highlight-color: #DCA3FF;
 }
 
 body {
