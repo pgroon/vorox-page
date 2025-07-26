@@ -10,31 +10,44 @@
   --font-color: #E8DFF0;
   --bg-color: #201924;
   --highlight-color: #DCA3FF;
+  --overlay-tint: rgba(220, 163, 255, 0.16); /* Based on #DCA3FF*/
 }
 
 body {
   margin: 0;
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   color: var(--font-color);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    linear-gradient(to bottom, var(--overlay-tint, transparent 0%, transparent 100%)),
+    url("/assets/img/hero-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* parallax effect */
 }
 
 header {
-  padding: 2rem;
-  border-bottom: 2px solid var(--highlight-color);
+  padding: 1rem;
+  border-bottom: 1px solid var(--highlight-color);
   text-align: center;
 }
 
-.logo img {
+/* Hero Logo styling (styles the SVG directly) */
+#vorox-hero-logo {
   display: block;
-  max-width: 100%;
+  max-width: 480px;
   height: auto;
   margin: 0 auto;
-  width: 100%;
-  max-width: 400px;
-  padding: 0 0 3rem 0
+  width: 70%;
+  padding: 0 0 2rem 0
 }
+#vorox-hero-logo #logo-text {fill: var(--font-color)}
+#vorox-hero-logo #logo-sub {fill: var(--font-color)}
+#vorox-hero-logo #logo-accent {fill: var(--highlight-color)}
 
 a {color: var(--highlight-color)}
 a:hover {color: var(--font-color)}
