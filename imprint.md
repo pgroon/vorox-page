@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Vorox Audio
+title: Imprint & Legal Information - Vorox Audio 
 ---
 
 # Impressum
