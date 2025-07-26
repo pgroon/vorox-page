@@ -1,16 +1,52 @@
-
 :root {
+/* Modern Neutral (Dark) 
+  --font-color: #CCCCCC;
+  --bg-color: #121212;
+  --highlight-color: #00E3C2; 
+  --overlay-tint: rgba(0, 227, 194, 0.10);
+ */ 
+/* Amber Contrast (Dark) 
+  --font-color: #E0E0DC;
+  --bg-color: #2C2C2C;
+  --highlight-color: #FFD166;
+  --overlay-tint: rgba(255, 209, 102, 0.10); 
+ */ 
+/* Nord Soft (Dark) */
+  --font-color: #D8DEE9;
+  --bg-color: #2E3440;
+  --highlight-color: #81A1C1;
+  --overlay-tint: rgba(129, 161, 193, 0.12);
+ 
+/* Industrial Frost (Dark) 
+  --font-color: #F2F2F2;
+  --bg-color: #1A1A1A;
+  --highlight-color: #FF5E4F;
+  --overlay-tint: rgba(255, 94, 79, 0.10); 
+ */ 
+/* Soft Volt (Dark) 
+  --font-color: #DADADA;
+  --bg-color: #121F1A;
+  --highlight-color: #29F4AA;
+  --overlay-tint: rgba(41, 244, 170, 0.08);
+ */
+/* Graphite Ice (Dark) 
+  --font-color: #E4E9EE;
+  --bg-color: #1A1D21;
+  --highlight-color: #6BB9FF;
+  --overlay-tint: rgba(107, 185, 255, 0.12);
+ */ 
 /* Warm Concrete (Dark) 
   --font-color: #EAE6E2;
   --bg-color: #2A2625;
-  --highlight-color: #FF6611; 
- */ 
-
-/* Sonic Plum (Dark) */
+  --highlight-color: #FF6611;
+  --overlay-tint: rgba(255, 102, 17, 0.10);
+ */
+/* Sonic Plum (Dark) 
   --font-color: #E8DFF0;
   --bg-color: #201924;
   --highlight-color: #DCA3FF;
-  --overlay-tint: rgba(220, 163, 255, 0.16); /* Based on #DCA3FF*/
+  --overlay-tint: rgba(220, 163, 255, 0.16);
+*/
 }
 
 body {
