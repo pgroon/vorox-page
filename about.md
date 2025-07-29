@@ -5,8 +5,6 @@ title: About - Vorox Audio
 
 # About Vorox Audio
 
-My dad was a passionate blues musician and exposed me to a wide range of music from all over the world - At age 6, one of my favourite songs was [Brrrlak!](https://youtube.com/watch?v=VxkbipVwZv4) by Zap Mama - and also taught me active listening from a very early age. Spending time with him in his music-corner kindled a lasting fascination with recording equipment as well as sound in general.
-
 As an advocate for all things open source, my recording setup is based on linux and exclusively uses open source tools. Most of my work is done in [Ardour](https://ardour.org) with various plug-ins such as the [Helm Synthesizer](https://tytel.org/helm/), the [LSP-suite](https://lsp-plug.in), and [noise repellent](https://github.com/licianodato/noise-repellent/).
 
 I use linux and FOSS tools for auxilliary work as well. Notably, the Vorox logo was designed and realized in [Inkscape](https://inkscape.org).

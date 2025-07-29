@@ -51,19 +51,24 @@
 
 body {
   margin: 0;
-  /*background-color: var(--bg-color);*/
   color: var(--font-color);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     linear-gradient(to bottom, var(--overlay-tint, transparent 0%, transparent 100%)),
-    url("/assets/img/hero-bg.jpg");
-
+    url("/assets/img/elijah-merrell-4BnGQQ2Qoak-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* parallax effect */
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #bcb7b3;
 }
 
 header {
@@ -72,7 +77,7 @@ header {
   text-align: center;
 }
 
-/* Hero Logo styling (styles the SVG directly) */
+/* Logo styling (styles the SVG directly) */
 #vorox-hero-logo {
   display: block;
   max-width: 480px;
@@ -85,8 +90,19 @@ header {
 #vorox-hero-logo #logo-sub {fill: var(--font-color)}
 #vorox-hero-logo #logo-accent {fill: var(--highlight-color)}
 
-a {color: var(--highlight-color)}
-a:hover {color: var(--font-color)}
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--font-color);
+  text-decoration: none;
+}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
 
 nav {
   margin-top: 1rem;
@@ -126,12 +142,44 @@ h1, h2 {
   margin-top: 2rem;
 }
 
-footer {
-  padding: 2rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #bcb7b3;
+/*--------------------*/
+/* Sound pack styling */
+
+.sound-pack {
+  background-color: var(--bg-color);
+  opacity: 0.7;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: var(--font-color);
 }
+
+.sound-pack:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.8rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.sound-pack h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: var(--highlight-color);
+}
+
+.sound-pack p {
+  margin: 0.5rem 0 0 0;
+  line-height: 1.2;
+}
+
+.sound-pack-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 2fr));
+  gap: 0.5rem
+}
+
+
 
 /* oswald-300 - latin */
 @font-face {
