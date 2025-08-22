@@ -4,6 +4,10 @@ title: Sound Packs - Vorox Audio
 ---
 
 Here you can browse the sound packs on offer and check out what I'm currently working on.
+All of these are licensed under the *VOROX standard license*:
+Personal and commercial use allowed. No resale, redistribution, or AI voice cloning.  
+Full terms: <a href="/license/">VOROX standard license</a>
+
 
 <div class="sound-pack-grid">
 	<a href="https://voroxaudio.itch.io/drawers-soundpack">
