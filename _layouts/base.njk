@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ title }}</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
-  <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="VoroxAudio" />
-  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
-</head>
-<body>
+    <head>
+      <!-- General -->
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="/style.css">
+      <title>{{ title or 'Vorox Audio'}}</title>
+      <meta name="description" content="{{ description or 'High Quality Audio Assets for Film and Video Games' }}">
+      
+      <!-- Open Graph -->
+      <meta property="og:title" content="{{ title or 'Vorox Audio' }}">
+      <meta property="og:description" content="{{ description or 'High-quality sound libraries crafted for creators who care.' }}">
+      <meta property="og:image" content="{{ ogImage or '/assets/og/default.png' }}">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="{{ page.url | url }}">
 
-  {% include "header.njk" %}
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+      <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+      <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+      <meta name="apple-mobile-web-app-title" content="VoroxAudio" />
+      <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    </head>
+    {% set themes = [
+      "theme-modern-neutral",
+      "theme-amber-contrast",
+      "theme-nord-soft",
+      "theme-industrial-frost",
+      "theme-soft-volt",
+      "theme-graphite-ice",
+      "theme-warm-concrete",
+      "theme-sonic-plum"
+    ] %}
+    {% set themeClass = themes | random %}
 
-  <main>
-    {{ content | safe }}
-  </main>
+    <body class="{{ themeClass }}">
+      
+      {% include "header.njk" %}
 
-  {% include "footer.njk" %}
+      <main>
+        {{ content | safe }}
+      </main>
 
-</body>
+      {% include "footer.njk" %}
+
+    </body>
 </html>

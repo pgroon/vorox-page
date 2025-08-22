@@ -1,6 +1,7 @@
 ---
 layout: base.njk
-title: Sound Packs - Vorox Audio
+title: License - Vorox Audio
+description: Details on how you can use Vorox Audio’s sound libraries. Clear terms, no legal jargon, and creator-friendly usage rights.
 ---
 
 # VOROX Standard License
