@@ -2,6 +2,7 @@
 layout: base.njk
 title: License - Vorox Audio
 description: Details on how you can use Vorox Audio’s sound libraries. Clear terms, no legal jargon, and creator-friendly usage rights.
+filename: license.md
 ---
 
 # VOROX Standard License

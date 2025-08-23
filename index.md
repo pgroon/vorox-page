@@ -2,6 +2,7 @@
 layout: base.njk
 title: Home - Vorox Audio
 description: Welcome to Vorox Audio. Discover clean, clutter-free sound libraries crafted for game developers, filmmakers, and creators who care about quality.
+filename: index.md
 ---
 
 ## Audio that works. Nothing that doesn't.

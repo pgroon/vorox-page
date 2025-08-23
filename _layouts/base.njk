@@ -33,7 +33,7 @@
       "theme-warm-concrete",
       "theme-sonic-plum"
     ] %}
-    {% set themeClass = themes | random %}
+    {% set themeClass = themeMap[filename] %}
 
     <body class="{{ themeClass }}">
       

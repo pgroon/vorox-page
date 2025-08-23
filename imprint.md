@@ -2,6 +2,7 @@
 layout: base.njk
 title: Imprint & Legal Information - Vorox Audio 
 description: Legal disclosure and contact information for Vorox Audio in accordance with German Telemedia Act (TMG).
+filename: imprint.md
 ---
 
 # Impressum

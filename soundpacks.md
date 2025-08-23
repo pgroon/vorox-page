@@ -1,6 +1,8 @@
 ---
 layout: base.njk
 title: Sound Packs - Vorox Audio
+description: "Explore Vorox Audio’s growing collection of royalty-free sound packs. Cleanly edited, themed, and ready to use in your creative projects."
+filename: soundpacks.md
 ---
 
 Here you can browse the sound packs on offer and check out what I'm currently working on.

@@ -2,6 +2,7 @@
 layout: base.njk
 title: About Vorox Audio
 description: "Learn about the vision behind Vorox Audio: Clean sound in a usable package."
+filename: about.md
 ---
 
 # About Vorox Audio
