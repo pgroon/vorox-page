@@ -8,7 +8,11 @@ module.exports = () => {
     "theme-soft-volt",
     "theme-graphite-ice",
     "theme-warm-concrete",
-    "theme-sonic-plum"
+    "theme-sonic-plum",
+    "theme-oxide-red",
+    "theme-neo-teal",
+    "theme-arc-green",
+    "theme-ice-signal"
   ];
 
   const pages = [

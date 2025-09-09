@@ -48,6 +48,30 @@
   --highlight-color: #DCA3FF;
   --overlay-tint: rgba(220, 163, 255, 0.16);
 }
+.theme-oxide-red {
+  --font-color: #EAD9DA;
+  --bg-color: #1E1113;
+  --highlight-color: #FF3B30; /* vivid scarlet red */
+  --overlay-tint: rgba(255, 59, 48, 0.12);
+}
+.theme-neo-teal {
+  --font-color: #DFF2EF;
+  --bg-color: #122322;
+  --highlight-color: #00FFD1; /* bright electric teal */
+  --overlay-tint: rgba(0, 255, 209, 0.10);
+}
+.theme-arc-green {
+  --font-color: #E4F2D5;
+  --bg-color: #141F14;
+  --highlight-color: #A5FF00; /* neon chartreuse */
+  --overlay-tint: rgba(165, 255, 0, 0.12);
+}
+.theme-ice-signal {
+  --font-color: #EEF3F8;
+  --bg-color: #1A1C22;
+  --highlight-color: #60B7FF; /* cool desaturated cyan-blue */
+  --overlay-tint: rgba(96, 183, 255, 0.10);
+}
 
 body {
   margin: 0;
