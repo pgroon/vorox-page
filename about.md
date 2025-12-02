@@ -7,7 +7,7 @@ filename: about.md
 
 # About Vorox Audio
 
-My daytime job involves a lot of requirement engineering. I pride myself in having a keen eye for the needs of all kinds of different stakeholders. At Vorox Audio, I try not only to focus on crafting good audio, but also in creating a product that maximises ease-of-use with sensible structures and good metadata. I don't just want you to enjoy the sounds - I want you to enjoy working with them.
+My daytime job involves a lot of requirement engineering. I pride myself in having a keen eye for the needs of all kinds of different stakeholders. At Vorox Audio, I try not only to focus on crafting good audio, but also in creating a product that maximises ease-of-use with sensible structures and [UCS-compliant](https://universalcategorysystem.com) metadata.
 
 As an advocate for all things open source, my recording setup is based on linux and exclusively uses open source tools. Most of my work is done in [Ardour](https://ardour.org) with various plug-ins such as the [Helm Synthesizer](https://tytel.org/helm/), the [LSP-suite](https://lsp-plug.in), and [noise repellent](https://github.com/licianodato/noise-repellent/). More recently, I have started to use the [Composer's Desktop Project](https://www.composersdesktop.com) through a new and innovative frontend called [SoundThread](https://github.com/j-p-higgins/SoundThread).
 

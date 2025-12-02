@@ -11,7 +11,7 @@ All sounds in this pack are original recordings, created and edited by Vorox Aud
 This license applies to all audio products sold or distributed by Vorox Audio, unless stated otherwise.
 
 ## You Can:
-- Use the audio files in **personal and commercial projects** (e.g. video games, apps, films, podcasts, interactive installations).
+- Use the audio files in **personal and commercial** projects (e.g. video games, apps, films, podcasts, interactive installations).
 - Modify, edit, and adapt the audio files as needed for your project.
 - Distribute the audio **only** as part of a larger project, provided the files cannot be easily extracted and used separately.
 - Use the audio worldwide, with no time limit.
