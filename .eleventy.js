@@ -9,6 +9,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addPassthroughCopy("style.css");
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("sitemap.xml");
 
   return {
     dir: {

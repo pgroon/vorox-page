@@ -1,5 +1,9 @@
-:root {}
-
+:root {
+  --corner-radius: 8px;
+}
+/*--------------------------------*/
+/*---------  COLOR SCHEMES  ------*/
+/*--------------------------------*/
 .theme-modern-neutral { 
   --font-color: #CCCCCC;
   --bg-color: #121212;
@@ -72,9 +76,30 @@
   --highlight-color: #60B7FF; /* cool desaturated cyan-blue */
   --overlay-tint: rgba(96, 183, 255, 0.10);
 }
+.theme-gruvbox-blue {
+  --font-color: #458588; /* muted blue */
+  --bg-color: #282828; 
+  --highlight-color: #D79921; /* Gruvbox yellow */
+  --overlay-tint: rgba(215, 153, 33, 0.08);
+}
+.theme-gruvbox-classic {
+  --font-color: #EBDBB2; /* Gruvbox beige */
+  --bg-color: #282828; 
+  --highlight-color: #D65D0E; /* Gruvbox orange */
+  --overlay-tint: rgba(214, 93, 14, 0.07);
+}
+
+
+/*--------------------------------*/
+/*---------  GENERAL  ------------*/
+/*--------------------------------*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
 body {
-  margin: 0;
   color: var(--font-color);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -86,12 +111,23 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* parallax effect */
+  /* ensure site covers the whole screen and the footer stays at the bottom: */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  margin: 0 auto;
+  padding: 2rem;
+  max-width: 800px;
+  flex: 1; /* expands to fill leftover space */
 }
 
 footer {
   padding: 2rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #bcb7b3;
 }
 
@@ -114,6 +150,7 @@ header {
 #vorox-hero-logo #logo-sub {fill: var(--font-color)}
 #vorox-hero-logo #logo-accent {fill: var(--highlight-color)}
 
+/* Links and Nav-Bar Styling */
 a {
   color: var(--highlight-color);
   text-decoration: none;
@@ -126,7 +163,6 @@ a:link {text-decoration: none;}
 a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 a:active {text-decoration: none;}
-
 
 nav {
   margin-top: 1rem;
@@ -143,16 +179,13 @@ nav a:hover {
   color: var(--font-color);
 }
 
-main {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
-}
-
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
+main > h1:first-of-type { text-align: center; }
+
+.highlight {color: var(--highlight-color)}
 
 .cta {
   background: var(--highlight-color);
@@ -166,8 +199,9 @@ h1, h2 {
   margin-top: 2rem;
 }
 
-/*--------------------*/
-/* Sound pack styling */
+/*-------------------------------------*/
+/*---------  SOUND PACK STYLING  ------*/
+/*-------------------------------------*/
 
 .sound-pack {
   background-color: var(--bg-color);
@@ -203,7 +237,80 @@ h1, h2 {
   gap: 0.5rem
 }
 
+/*----------------------------------------*/
+/*---------  VOICE OVER PAGE STYLE  ------*/
+/*----------------------------------------*/
 
+
+.demo-card {
+  border: 1px solid var(--font-color);
+  border-radius: var(--corner-radius);
+  padding: 1.5rem;
+}
+
+.demo-header {
+  margin-bottom: 1.5rem;
+  padding: 0 0 0.8rem 0;
+  text-align: left;
+}
+
+.demo-title {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.demo-intro { margin: 0; }
+.demo-main { margin-bottom: 1.75rem; }
+
+audio { border-radius: var(--corner-radius); }
+.demo-main > .audio-wrapper:first-of-type { width: 80%; }
+.demo-main > .audio-wrapper:first-of-type audio { width: 100%; }
+
+.demo-subtitle {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.audio-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.audio-wrapper audio { display: block; }
+.audio-tint {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--corner-radius);
+  background: rgba(0, 0, 0, 0.4); /* darken */
+  pointer-events: none !important;    /* crucial, otherwise the audio element is not clickable. */
+}
+
+.demo-note { margin: 0 0 0.6rem 0; }
+
+.demo-items {
+  display: grid;
+  padding: 0 0 0 2rem;
+}
+
+.demo-item {
+  display: flex;
+  align-items: center;
+}
+
+.demo-item-title { margin: 0 0 0 1.5rem; }
+
+
+@media (max-width: 480px) {
+  .demo-card {
+    padding: 1.1rem;
+  }
+}
+
+
+/*--------------------------------*/
+/*---------  FONTS  --------------*/
+/*--------------------------------*/
 
 /* oswald-300 - latin */
 @font-face {

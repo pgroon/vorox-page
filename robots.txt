@@ -1,3 +1,31 @@
 User-Agent: *
 Disallow: /siteadmin
 Sitemap: http://voroxaudio.de/sitemap.xml
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPT-Image-Indexer
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# The rest of the world
+User-agent: *
+Allow: /

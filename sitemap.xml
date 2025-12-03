@@ -2,6 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://voroxaudio.de/</loc>
-		<lastmod>2025-07-15</lastmod>
+		<lastmod>2025-12-03</lastmod>
+	</url>
+	<url>
+		<loc>http://voroxaudio.de/about/</loc>
+		<lastmod>2025-12-03</lastmod>
+	</url>
+	<url>
+		<loc>http://voroxaudio.de/voiceover/</loc>
+		<lastmod>2025-12-03</lastmod>
+	</url>
+	<url>
+		<loc>http://voroxaudio.de/imprint/</loc>
+		<lastmod>2025-12-03</lastmod>
+	</url>
+	<url>
+		<loc>http://voroxaudio.de/soundpacks/</loc>
+		<lastmod>2025-12-03</lastmod>
+	</url>
+	<url>
+		<loc>http://voroxaudio.de/license/</loc>
+		<lastmod>2025-12-03</lastmod>
 	</url>
 </urlset>
