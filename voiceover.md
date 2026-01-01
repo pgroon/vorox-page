@@ -66,4 +66,40 @@ filename: voiceover.md
       </div>
     </div>
   </section>
+  <!-- NARRATION DEMO CARD -->
+  <section class="demo-card">
+    <header class="demo-header">
+      <h1 class="demo-title">Fiction Narration Demo</h1>
+      <p class="demo-intro">
+        I love to read prose as well as poetry in both german and english. Below you can find two examples, with many more available on my <a href="https://www.youtube.com/@VOROX_Audio/videos">YouTube channel.</a>
+      </p>
+    </header>
+    <!-- German narration reel --------------------------------------------------------------------->
+    <div class="demo-main">
+      <h3 class="demo-subtitle">Poseidon by Franz Kafka</h3>
+      <p class="demo-note">
+        Classic short story by the Czech/Austrian master of surrealism. Total of 2 minutes and 20 seconds.
+      </p>
+      <div class="audio-wrapper">
+        <audio controls preload="metadata">
+          <source src="/assets/audio/poseidon.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="audio-tint"></div>
+      </div>
+    </div>
+    <div class="demo-main">
+      <h3 class="demo-subtitle">The Raven by Edgar Allan Poe</h3>
+      <p class="demo-note">
+		  Because who doesn't love <i>The Raven?</i> Total of 7 minutes and 15 seconds.
+      </p>
+      <div class="audio-wrapper">
+        <audio controls preload="metadata">
+          <source src="/assets/audio/poseidon.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="audio-tint"></div>
+      </div>
+    </div>
+  </section>
 </section>

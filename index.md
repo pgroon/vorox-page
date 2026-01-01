@@ -1,23 +1,21 @@
 ---
 layout: base.njk
 title: Home - Vorox Audio
-description: Welcome to Vorox Audio. Discover clean, clutter-free sound libraries crafted for game developers, filmmakers, and creators who care about quality.
+description: Welcome to Vorox Audio. I offer professional voice over and create sound packs for use in film or video games.
 filename: index.md
 ---
 
-## Audio that works. Nothing that doesn't.
+# Hi, I'm Phil.
 
-This website is still a work in progress, as I continue laying the technical groundwork and record demo content as well as recording and preparing more sound packs for release.  
-Please check back here in a couple of weeks; your patience is appreciated. If you're really curious, you can check the [github repo](https://github.com/pgroon/vorox-page) of this website's source code to watch the progress.
+I record stuff, build microphones, and love to mess around with all things audio. You can hire me for voice over work via [fiverr](https://www.fiverr.com/sellers/voroxaudio/) or [upwork](https://www.upwork.com/freelancers/~01d627231ceb2e9d52), buy some of my curated [sound packs](/soundpacks/) for film or video game production, or [contact me directly](mailto:hello@voroxaudio.de) to talk about whatever project you have in mind.
 
-In the meantime, you can find my already released work on [itch.io](https://voroxaudio.itch.io/) or [send me an email](mailto:hello@voroxaudio.de) if you have any questions.
+If you want an example of my work, check out my [youtube channel](https://www.youtube.com/@VOROX_Audio/videos) and listen to me narrate short stories from a variety of authors.
 
-## What Vorox Offers
-
-- Curated sound packs for film and video game design
-- Custom Sound Effects  
-- Voice recordings/narration upon request
-
-<a href="https://voroxaudio.itch.io/">
-	<button class="cta">Browse Sound Packs</button>
-</a>
+<div class="centered">
+    Want my voice for your project?
+</div>
+<div class="centered">
+    <a href="mailto:hello@voroxaudio.de">
+        <button class="cta">Get in touch!</button>
+    </a>
+</div>

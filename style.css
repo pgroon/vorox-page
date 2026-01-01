@@ -106,7 +106,7 @@ body {
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     linear-gradient(to bottom, var(--overlay-tint, transparent 0%, transparent 100%)),
-    url("/assets/img/elijah-merrell-4BnGQQ2Qoak-unsplash.jpg");
+    url("/assets/img/hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,16 +187,28 @@ main > h1:first-of-type { text-align: center; }
 
 .highlight {color: var(--highlight-color)}
 
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.8rem;
+}
+
 .cta {
   background: var(--highlight-color);
+  border: 4px solid var(--highlight-color);
   color: var(--bg-color);
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.2rem;
   font-weight: 600;
+  width: 200px;
   cursor: pointer;
-  border-radius: 4px;
-  margin-top: 2rem;
+  border-radius: 10px;
+}
+.cta:hover {
+  background: var(--bg-color);
+  color: var(--highlight-color);
+  border: 4px solid var(--font-color);
 }
 
 /*-------------------------------------*/
@@ -246,10 +258,10 @@ main > h1:first-of-type { text-align: center; }
   border: 1px solid var(--font-color);
   border-radius: var(--corner-radius);
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .demo-header {
-  margin-bottom: 1.5rem;
   padding: 0 0 0.8rem 0;
   text-align: left;
 }
@@ -261,7 +273,7 @@ main > h1:first-of-type { text-align: center; }
 }
 
 .demo-intro { margin: 0; }
-.demo-main { margin-bottom: 1.75rem; }
+.demo-main { margin-top: 1.75rem; }
 
 audio { border-radius: var(--corner-radius); }
 .demo-main > .audio-wrapper:first-of-type { width: 80%; }
@@ -296,6 +308,7 @@ audio { border-radius: var(--corner-radius); }
 .demo-item {
   display: flex;
   align-items: center;
+  margin-top: 0.4rem;
 }
 
 .demo-item-title { margin: 0 0 0 1.5rem; }
