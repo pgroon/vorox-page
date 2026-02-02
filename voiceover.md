@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base.liquid
 title: Vorox Voice Over Services
 description: "Custom voice over for technical, educational, or corporate content"
 filename: voiceover.md

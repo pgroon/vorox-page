@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base.liquid
 title: Vorox Audio Soundpack License
 description: Details on how you can use Vorox Audio’s sound libraries.
 filename: libraries.md

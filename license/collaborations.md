@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base.liquid
 title: VOROX Audio Collaboration License
 description: Get your short story narrated for free.
 filename: collaboration.md

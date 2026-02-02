@@ -1,0 +1,38 @@
+---
+title: Projects
+layout: base.liquid
+---
+
+<h1>Build Documentation</h1>
+
+Here you can find notes, write-ups, and documentation of things I build. Be it electronics, code, 3D- or graphic design.
+
+<ul class="card-list">
+{% for p in collections.projects %}
+
+  {%- assign thumb = "/assets/og/default.png" -%}
+  {%- if p.data.hero != blank -%}
+    {%- assign thumb = p.url | append: p.data.hero -%}
+  {%- endif -%}
+  {%- if p.data.thumbnail != blank -%}
+    {%- assign thumb = p.url | append: p.data.thumbnail -%}
+  {%- endif -%}
+
+  <li class="card">
+    <div class="card-text">
+      <a class="card-title" href="{{ p.url }}">{{ p.data.title }}</a>
+      {% if p.data.summary %}
+        <p class="card-summary">{{ p.data.summary }}</p>
+      {% endif %}
+    </div>
+    <div class="card-media">
+      <a href="{{ p.url }}">
+        <img class="card-thumb"
+             src="{{ thumb }}"
+             alt="{{ p.data.title }} thumbnail"
+             loading="lazy">
+      </a>
+    </div>
+  </li>
+{% endfor %}
+</ul>

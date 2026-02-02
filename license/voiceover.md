@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base.liquid
 title: Vorox Audio VO License
 description: Details the rights for commissioned voice over work.
 filename: voiceover.md

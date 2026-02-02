@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/pgroon/vorox-page#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
   },
   "dependencies": {
     "markdown-it-attrs": "^4.3.1",

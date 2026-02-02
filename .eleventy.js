@@ -1,6 +1,5 @@
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
-const markdownItContainer = require("markdown-it-container");
 
 module.exports = function(eleventyConfig) {
   const md = markdownIt({ html: true })
@@ -11,6 +10,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy("projects");
+  eleventyConfig.addCollection("projects", collection =>
+    collection.getFilteredByTag("projects")
+  );
 
   return {
     dir: {
