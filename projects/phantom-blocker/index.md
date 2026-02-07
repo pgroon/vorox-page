@@ -1,14 +1,15 @@
 ---
-layout: base.liquid
+layout: post.liquid
 title: Phantom Power Blocker
 date: 2026-01-29
 summary: 'A little exercise in designing a small utility product: An in-line XLR unit that protects dynamic microphones by blocking phantom power.'
 tags: projects, electronics
 hero: img/hero.png
-thumbnail:
+heroAlt: 'Image of a CAD-model of a tubular enclosure next to the layout of a circuit board.'
+thumbnail: img/schematic.png
 ---
 
-# Phantom Power Blocker
+(NOTE: This project is ongoing, the write-up will be continually expanded)
 
 This project is unusual for me in that it is not based on something I need. Instead, I just wanted to try designing a simple utility product, and see if I could go from zero to ready-to-order prototype stage in a single week. 
 

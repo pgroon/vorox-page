@@ -9,11 +9,11 @@ heroAlt: 'String of images left to right displaying stages from schematic to fin
 thumbnail: img/thumbnail.png
 ---
 
-Electret condenser capsules like the TSB-2555 have internal electronics that supply a bias voltage. True condenser capsules on the other hand need an external source, which is what this project is about. 
+Electret condenser capsules like the TSB-2555 have internal electronics that supply a bias voltage. True condenser capsules on the other hand need an external source; this project is about building one of those. 
 
 ## The Circuit
 
-The phantom-powered impedance converter board supplies a steady and clean 12VDC via the circuits virtual ground. We're going to take those 12V to power a classic ￼￼cockroft-walton charge pump￼￼￼￼￼￼￼￼￼ and push that to a theoretical 84V. I say theoretical for a reason - because every tiny loss gets multiplied over several stages, charge pumps are very susceptible to leakage currents and parasitic capacitance. So the actual output voltage will be probably around 80V.
+The phantom-powered impedance converter board supplies a steady and clean 12VDC via the circuits virtual ground. We're going to take those 12V to power a classic ￼￼cockroft-walton charge pump and push that to a theoretical 84V. I say theoretical for a reason - because every tiny loss gets multiplied over several stages, charge pumps are very susceptible to leakage currents and parasitic capacitance. So the actual output voltage will be probably around 80V.
 
 ## How it works
 
@@ -26,4 +26,4 @@ There is a saying that Adam Savage once mentioned, and which has since become so
 
 ## The Board Design
 
-I want this circuit to fit inside a BM800-style microphone body - so that determines the boards size and form. It also needs to manage noise well, and use readily available components. I'm going with surface mount components because I've always wanted to try my hand in SMD soldering and this is a good opportunity to try that. Because I will solder these by hand, I won't be picking anything smaller than a 0805 footprint, and where possible use the larger 1206.
+I want this circuit to fit inside a BM800-style microphone body - so that determines the boards size and form. It also needs to manage noise well, and use readily available components. I'm going with surface mount components here because I've always wanted to try my hand in SMD soldering and this is a good opportunity to try that. Because I will solder these by hand, I won't be picking anything smaller than a 0805 footprint, and where possible use the larger 1206.
